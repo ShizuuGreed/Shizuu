@@ -1,11 +1,13 @@
 .home {
     top: -10%;
     margin-top: 0%;
-    left: 80px;
-    width: 150%;
-    height: 145px;
+    left:20px;
+    right: 20px;
+    width: 96%;
+    height: 90px;
     position: fixed;
     background-color: rgb(23, 23, 24);
+    border-radius: 20px;
 }
 
 .home a {

@@ -1,33 +1,31 @@
 
 
 .twitter {
-    margin-top: -10px;
-    right: 5%;
-    width: 90px;
-    height: 23px;
+    margin-top: 0%;
+    margin-left: 5px;
+    width: 50px;
+    height: 15px;
     border: none;
     outline: none;
     color: #fff;
-    background-color: rgb(23, 23, 24);
-    border-style: solid;
-    border-color: rgb(41, 41, 41);
+    background: rgb(2, 2, 2);
     cursor: pointer;
     position: fixed;
     z-index: 0;
-    text-align: center;
-    
+    border-radius: 10px;
 }
 
 .twitter:before {
     content: '';
-
+    
+    position: absolute;
     top: -2px;
     left:-2px;
     background-size: 400%;
     z-index: -1;
     filter: blur(5px);
     width: calc(100% + 4px);
-    height: calc(100% + 40px);
+    height: calc(100% + 20px);
     animation: glowing 20s linear infinite;
     opacity: 0;
     transition: opacity .3s ease-in-out;
@@ -46,20 +44,13 @@
     opacity: 1;
 }
 
-.twitter:hover{
-    height: 60px;
-    border-radius: 5px;
-    
-    
-}
-
 .twitter:after {
     z-index: -1;
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
-  
+    background: rgb(2, 2, 2);
     left: 0;
     top: 0;
     border-radius: 10px;
